@@ -1,0 +1,56 @@
+@use "../abstracts/functions" as f;
+
+/**************************/
+/* CARD BUTTON */
+/**************************/
+
+/* General Button */
+.btn:link,
+.btn:visited {
+    margin-top: 2em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    background-color: var(--color-desaturated-blue);
+
+    transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+    color: var(--color-desaturated-blue);
+}
+
+/**************************/
+/* Customized Button */
+/**************************/
+/*Button-1*/
+.btn-card-1 {
+    color: var(--color-bright-orange);
+
+    &:hover {
+        background-color: var(--color-bright-orange);
+        box-shadow: inset 0 0 0 2px var(--color-desaturated-blue);
+    }
+}
+
+/*Button-2*/
+.btn-card-2 {
+    color: var(--color-dark-cyan);
+
+    &:hover {
+        background-color: var(--color-dark-cyan);
+        box-shadow: inset 0 0 0 2px var(--color-desaturated-blue);
+    }
+}
+
+/*Button-3*/
+.btn-card-3 {
+    color: var(--color-very-dark-cyan);
+
+    &:hover {
+        background-color: var(--color-very-dark-cyan);
+        box-shadow: inset 0 0 0 2px var(--color-desaturated-blue);
+    }
+}

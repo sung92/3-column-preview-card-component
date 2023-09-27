@@ -1,0 +1,64 @@
+@use "../abstracts/functions" as f;
+
+/**************************/
+/* PRODUCT CARD */
+/**************************/
+
+.c-product-card {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: f.rem(325px);
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+/* CARD CONTAINER*/
+.c-product-card-container {
+    padding: 3rem 2rem;
+}
+
+/* INDIVIDUAL CARDS BACKG-COLOR*/
+.c-product-card__1-3 {
+    background-color: var(--color-bright-orange);
+}
+
+.c-product-card__2-3 {
+    background-color: var(--color-dark-cyan);
+}
+
+.c-product-card__3-3 {
+    background-color: var(--color-very-dark-cyan);
+}
+
+/* Product title  */
+.c-product-card__title {
+    margin-top: 0.5em;
+
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: f.rem(40px);
+    font-weight: 700;
+    color: var(--color-desaturated-blue);
+}
+
+/* Product description  */
+.c-product-card__desc {
+    margin-top: 1em;
+    color: var(--color-very-pale-blue);
+}
+
+
+@media (width >= 43.75em) {
+    .c-product-card {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: f.rem(920px);
+        border-radius: 11px;
+        overflow: hidden;
+    }
+
+    .c-product-card__desc {
+        margin-top: 1em;
+        height: 11rem;
+    }
+}
