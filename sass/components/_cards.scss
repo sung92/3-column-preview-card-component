@@ -53,12 +53,9 @@
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: f.rem(920px);
-        border-radius: 11px;
-        overflow: hidden;
     }
 
     .c-product-card__desc {
-        margin-top: 1em;
         height: 11rem;
     }
 }

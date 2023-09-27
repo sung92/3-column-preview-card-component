@@ -129,17 +129,14 @@ body {
 
 @media (width >= 43.75em) {
   .c-product-card {
-    border-radius: 11px;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 57.5rem;
     display: grid;
-    overflow: hidden;
   }
 
   .c-product-card__desc {
     height: 11rem;
-    margin-top: 1em;
   }
 }
 
