@@ -86,6 +86,10 @@ body {
   display: grid;
 }
 
+.margin-top-sm {
+  margin-top: 2em !important;
+}
+
 .c-product-card {
   border-radius: 11px;
   grid-template-rows: 1fr 1fr 1fr;
@@ -142,7 +146,6 @@ body {
 .btn:link, .btn:visited {
   background-color: var(--color-desaturated-blue);
   border-radius: 25px;
-  margin-top: 2em;
   padding: 1rem 2rem;
   text-decoration: none;
   transition: all .3s;
