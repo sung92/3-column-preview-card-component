@@ -123,6 +123,7 @@ body {
 }
 
 .c-product-card__title {
+  text-transform: uppercase;
   color: var(--color-desaturated-blue);
   font-family: Big Shoulders Display, sans-serif;
   font-size: 2.5rem;
