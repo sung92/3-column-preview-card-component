@@ -15,6 +15,10 @@
 /* CARD CONTAINER*/
 .c-product-card-container {
     padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2ch;
 }
 
 /* INDIVIDUAL CARDS BACKG-COLOR*/
@@ -30,10 +34,18 @@
     background-color: var(--color-very-dark-cyan);
 }
 
+/* CARD ICON*/
+.c-product-card__img {
+    width: 5rem;
+}
+
+/* CTA Margin*/
+.c-product-card__cta {
+    margin-top: auto;
+}
+
 /* Product title  */
 .c-product-card__title {
-    margin-top: 0.5em;
-
     font-family: 'Big Shoulders Display', sans-serif;
     font-size: f.rem(40px);
     font-weight: 700;
@@ -42,10 +54,9 @@
 
 /* Product description  */
 .c-product-card__desc {
-    margin-top: 1em;
+    margin-bottom: 4rem;
     color: var(--color-very-pale-blue);
 }
-
 
 @media (width >= 43.75em) {
     .c-product-card {
@@ -53,9 +64,5 @@
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: f.rem(920px);
-    }
-
-    .c-product-card__desc {
-        height: 11rem;
     }
 }
