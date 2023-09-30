@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/3-column-preview-card-component-sSanuazkBQ](https://www.frontendmentor.io/solutions/3-column-preview-card-component-sSanuazkBQ)
 - Live Site URL: [https://3-column-preview-card-component-sung.netlify.app/](https://3-column-preview-card-component-sung.netlify.app/)
 
 ## My process
